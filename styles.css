@@ -40,12 +40,13 @@ a {
 }
 #intro {
   background-image: url(/Assets/background-images/header-shapes\ mobile.png);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 100vh;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 80px;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
 }
 .greetings {
   font-size: 40px;
