@@ -1,6 +1,6 @@
 body {
-  margin: 0;
   font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 
 .nav-list {
@@ -42,13 +42,14 @@ a {
 
 #intro {
   background-image: url(./Assets/background-images/header-shapes\ mobile.png);
-  background-position: cente;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 80px;
+  padding-bottom: 150px;
 }
 
 .greetings {
@@ -75,4 +76,81 @@ a {
   height: 22px;
   width: 22px;
   padding-right: 15px;
+}
+
+#projects {
+  background-color: #f7f7f7;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.first-project {
+  background-color: #ffffff;
+  margin-top: 30px;
+  margin-right: 24px;
+  margin-left: 24px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+.project-image {
+  display: flex;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+.project-content {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.project-heading {
+  color: #172b4d;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.content-text {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  color: #7a869a;
+  display: inline;
+}
+#canopy {
+  color: #344563;
+}
+.count-vector {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.description-text {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-right: 19px;
+  color: #344563;
+}
+.language-used {
+  background-color: #ebebff;
+  color: #6070ff;
+  padding: 4px 12px 4px 12px;
+  font-size: 12px;
+  border-radius: 8px 8px 8px 8px;
+}
+.project-link {
+  color: #396df2;
+  padding-top: 16px;
+}
+#link {
+  padding: 12px 12px 12px 12px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  border: 1px solid #396df2;
+  display: inline-block;
+  border-radius: 8px 8px 8px 8px;
 }
