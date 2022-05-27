@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo-link {
+  color: #6070ff;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.bi-list {
+  margin-top: px;
+  width: 30px;
+  height: 30px;
+  color: #6070ff;
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  padding-left: 15px;
+  padding-right: 15px;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1000;
+}
+
+#intro {
+  background-image: url(./Assets/background-images/header-shapes\ mobile.png);
+  background-position: cente;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 80px;
+}
+
+.greetings {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #172b4d;
+  padding-right: 10%;
+}
+
+.intro-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.connect {
+  color: #6070ff;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.social-icons {
+  height: 22px;
+  width: 22px;
+  padding-right: 15px;
+}
