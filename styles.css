@@ -5,17 +5,14 @@ body {
 
 .nav-list {
   list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0;
 }
 
 a {
   text-decoration: none;
-}
-
-.brand-logo {
-  display: flex;
-  align-items: center;
-  font-weight: 700;
-  font-size: 25px;
 }
 
 .logo-link {
@@ -29,12 +26,11 @@ a {
   width: 30px;
   height: 30px;
   color: #6070ff;
+  display: flex;
+  align-items: center;
 }
 
 .nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding-left: 15px;
   padding-right: 15px;
   top: 0;
@@ -45,9 +41,10 @@ a {
 }
 
 #intro {
-  background-image: url(/Assets/background-images/header-shapes\ mobile.png);
-  background-position: center;
+  background-image: url(Assets/background-images/header-shapes\ mobile.png);
+  background-position: cente;
   background-repeat: no-repeat;
+  background-size: contain;
   height: 100vh;
   padding-left: 15px;
   padding-right: 15px;
