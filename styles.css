@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 .nav-list {
   list-style-type: none;
 }
@@ -57,4 +60,8 @@ a {
   color: #6070ff;
   font-weight: 500;
   font-size: 25px;
+}
+.social-icons {
+  height: 25px;
+  width: 25px;
 }
