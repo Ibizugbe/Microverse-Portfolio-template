@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 .nav-list {
   list-style-type: none;
@@ -16,13 +17,13 @@ a {
 }
 .logo-link {
   color: #6070ff;
-  font-size: 40px;
+  font-size: 25px;
   font-weight: 700;
 }
 .bi-list {
   margin-top: px;
-  width: 55px;
-  height: 55px;
+  width: 30px;
+  height: 30px;
   color: #6070ff;
 }
 .nav {
@@ -41,15 +42,17 @@ a {
   background-image: url(/Assets/background-images/header-shapes\ mobile.png);
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 90px;
+  padding-top: 80px;
   background-position: center;
   background-repeat: no-repeat;
+  height: 100vh;
 }
 .greetings {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
   color: #172b4d;
+  padding-right: 10%;
 }
 .intro {
   font-size: 16px;
@@ -59,9 +62,10 @@ a {
 .connect {
   color: #6070ff;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 15px;
 }
 .social-icons {
-  height: 25px;
-  width: 25px;
+  height: 22px;
+  width: 22px;
+  padding-right: 15px;
 }
