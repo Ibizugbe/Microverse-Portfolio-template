@@ -34,3 +34,11 @@ a {
   position: fixed;
   z-index: 1000;
 }
+#intro {
+  background-image: url(/Assets/background-images/header-shapes\ mobile.png);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 90px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
