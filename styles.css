@@ -42,3 +42,19 @@ a {
   background-position: center;
   background-repeat: no-repeat;
 }
+.greetings {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #172b4d;
+}
+.intro {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.connect {
+  color: #6070ff;
+  font-weight: 500;
+  font-size: 25px;
+}
