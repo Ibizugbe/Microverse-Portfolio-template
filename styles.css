@@ -41,7 +41,7 @@ a {
 }
 
 #intro {
-  background-image: url(Assets/background-images/header-shapes\ mobile.png);
+  background-image: url(./Assets/background-images/header-shapes\ mobile.png);
   background-position: cente;
   background-repeat: no-repeat;
   background-size: contain;
