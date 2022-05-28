@@ -84,7 +84,7 @@ a {
   padding-bottom: 30px;
 }
 
-.first-project {
+.project {
   background-color: #ffffff;
   margin-top: 30px;
   margin-right: 24px;
@@ -144,7 +144,9 @@ a {
 }
 .project-link {
   color: #396df2;
-  padding-top: 16px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
 }
 #link {
   padding: 12px 12px 12px 12px;
@@ -153,4 +155,7 @@ a {
   border: 1px solid #396df2;
   display: inline-block;
   border-radius: 8px 8px 8px 8px;
+}
+#second-project {
+  margin-top: 100px;
 }
