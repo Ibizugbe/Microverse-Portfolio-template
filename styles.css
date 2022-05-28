@@ -4,6 +4,10 @@ body {
   width: 365px;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .nav-list {
   list-style-type: none;
   display: flex;
@@ -74,6 +78,12 @@ a {
   font-size: 15px;
 }
 
+.connect-links {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+}
+
 .social-icons {
   height: 22px;
   width: 22px;
@@ -84,6 +94,8 @@ a {
   background-color: #f7f7f9;
   padding-top: 100px;
   padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 .project {
@@ -157,13 +169,23 @@ a {
   line-height: 24px;
 }
 
-.link {
+.btn {
   padding: 12px 12px 12px 12px;
   margin-top: 25px;
   margin-bottom: 15px;
+  background-color: white;
   border: 1px solid #396df2;
-  display: inline-block;
   border-radius: 8px 8px 8px 8px;
+}
+
+.btn:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+.btn:active {
+  background-color: #2230d2;
+  color: white;
 }
 
 #second-project {
@@ -215,6 +237,8 @@ a {
 
 .my-language {
   margin-top: 40px;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 .my-language-text {
@@ -227,6 +251,7 @@ a {
 
 .my-language-container {
   display: flex;
+  align-items: center;
   padding: 8px 8px 8px 8px;
   margin-top: 10px;
   background-color: #f7f7f9;
