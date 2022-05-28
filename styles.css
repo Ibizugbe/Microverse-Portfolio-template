@@ -94,6 +94,7 @@ a {
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
 }
+
 .project-image {
   display: flex;
   justify-content: center;
@@ -101,6 +102,7 @@ a {
   padding-right: 15px;
   padding-top: 15px;
 }
+
 .project-content {
   padding-left: 15px;
   padding-right: 15px;
@@ -114,6 +116,7 @@ a {
   margin-bottom: 10px;
   margin-top: 10px;
 }
+
 .content-text {
   font-size: 13px;
   font-weight: 600;
@@ -121,13 +124,16 @@ a {
   color: #7a869a;
   display: inline;
 }
+
 #canopy {
   color: #344563;
 }
+
 .count-vector {
   padding-left: 5px;
   padding-right: 5px;
 }
+
 .description-text {
   font-size: 15px;
   font-weight: 400;
@@ -135,6 +141,7 @@ a {
   padding-right: 19px;
   color: #344563;
 }
+
 .language-used {
   background-color: #ebebff;
   color: #6070ff;
@@ -142,12 +149,14 @@ a {
   font-size: 12px;
   border-radius: 8px 8px 8px 8px;
 }
+
 .project-link {
   color: #396df2;
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
 }
+
 #link {
   padding: 12px 12px 12px 12px;
   margin-top: 25px;
@@ -156,9 +165,15 @@ a {
   display: inline-block;
   border-radius: 8px 8px 8px 8px;
 }
+
 #second-project {
   margin-top: 100px;
 }
+
 #third-project {
+  margin-top: 100px;
+}
+
+#fourth-project {
   margin-top: 100px;
 }
