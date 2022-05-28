@@ -79,7 +79,7 @@ a {
 }
 
 #projects {
-  background-color: #f7f7f7;
+  background-color: #f7f7f9;
   padding-top: 100px;
   padding-bottom: 30px;
 }
@@ -89,10 +89,8 @@ a {
   margin-top: 30px;
   margin-right: 24px;
   margin-left: 24px;
-  border-top-left-radius: 16px;
-  border-top-right-radius: 16px;
-  border-bottom-left-radius: 16px;
-  border-bottom-right-radius: 16px;
+  border-radius: 16px 16px 16px 16px;
+  border: 1px solid #dfe1e6;
 }
 
 .project-image {
@@ -176,4 +174,74 @@ a {
 
 #fourth-project {
   margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.about {
+  padding-right: 29px;
+  padding-left: 29px;
+  padding-top: 80px;
+  border-top-right-radius: 50px;
+}
+
+.about-header {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  padding-right: 50%;
+}
+
+.about-text {
+  font-size: 16px;
+  color: #344563;
+  font-weight: 400;
+}
+
+.language-header {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.my-language-text {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #253858;
+  padding-left: 20px;
+}
+
+.my-language-container {
+  display: flex;
+  padding: 8px 8px 8px 8px;
+  margin-top: 10px;
+  background-color: #f7f7f9;
+  border-radius: 8px 8px 8px 8px;
+}
+
+.language-rule {
+  color: #dfe1e6;
+}
+.contact-me-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.contact-me-header {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+.contact-me {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.contact-input {
+  display: block;
+  width: 327px;
+  height: 48px;
 }
