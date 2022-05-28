@@ -87,7 +87,7 @@ a {
 }
 
 .project {
-  background-color: #ffffff;
+  background-color: #fff;
   margin-top: 30px;
   margin-right: 24px;
   margin-left: 24px;
@@ -125,7 +125,7 @@ a {
   display: inline;
 }
 
-#canopy {
+.canopy {
   color: #344563;
 }
 
@@ -157,7 +157,7 @@ a {
   line-height: 24px;
 }
 
-#link {
+.link {
   padding: 12px 12px 12px 12px;
   margin-top: 25px;
   margin-bottom: 15px;
@@ -210,13 +210,10 @@ a {
 
 .about-languages {
   padding-left: 10px;
-}
-
-.my-language {
   margin-top: 40px;
 }
 
-.about-languages {
+.my-language {
   margin-top: 40px;
 }
 
@@ -248,6 +245,7 @@ a {
   padding-bottom: 20px;
   padding-top: 20px;
 }
+
 .language-header-container {
   display: flex;
   justify-content: space-between;
