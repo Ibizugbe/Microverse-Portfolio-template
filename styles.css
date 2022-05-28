@@ -1,6 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
+  width: 365px;
 }
 
 .nav-list {
@@ -45,8 +46,9 @@ a {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: contain;
   padding-left: 15px;
+  border-bottom-left-radius: 80px;
   padding-right: 15px;
   padding-top: 80px;
   padding-bottom: 150px;
@@ -181,6 +183,7 @@ a {
   padding-right: 29px;
   padding-left: 29px;
   padding-top: 80px;
+  padding-bottom: 50px;
   border-top-right-radius: 50px;
 }
 
@@ -202,6 +205,19 @@ a {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
+  display: inline;
+}
+
+.about-languages {
+  padding-left: 10px;
+}
+
+.my-language {
+  margin-top: 40px;
+}
+
+.about-languages {
+  margin-top: 40px;
 }
 
 .my-language-text {
@@ -222,26 +238,18 @@ a {
 
 .language-rule {
   color: #dfe1e6;
-}
-.contact-me-text {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.contact-me-header {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  text-align: center;
+.frameworks,
+.skills {
+  border-bottom: 1px solid #dfe1e6;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
-.contact-me {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.contact-input {
-  display: block;
-  width: 327px;
-  height: 48px;
+.language-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
