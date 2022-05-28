@@ -94,8 +94,9 @@ a {
   background-color: #f7f7f9;
   padding-top: 100px;
   padding-bottom: 30px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
 }
 
 .project {
