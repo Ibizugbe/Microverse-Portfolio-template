@@ -161,6 +161,12 @@ a {
   padding: 4px 12px 4px 12px;
   font-size: 12px;
   border-radius: 8px 8px 8px 8px;
+  float: left;
+  margin-right: 10px;
+}
+
+.languages {
+  padding-left: 0;
 }
 
 .project-link {
