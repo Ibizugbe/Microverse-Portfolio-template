@@ -283,3 +283,26 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+
+.contact-header {
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+text-align: center;
+color: #fff;
+
+}
+
+.contact-paragraphe {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #fff;
+}
+
+#contact-me {
+  background-image: url(Assets/background-images/contact-form-shapes-mobile.svg);
+  background-repeat: no-repeat;
+  background-color:  #6070FF;
+}
