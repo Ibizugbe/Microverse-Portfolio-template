@@ -292,7 +292,7 @@ a {
 .input-text {
   height: 48px;
   border-radius: 8px;
-  border: 0;
+  border: 0px;
   margin-bottom: 20px;
   padding-left: 15px;
 }
@@ -373,6 +373,6 @@ a {
 }
 
 .contact-button:active {
-  background-color: #2230d2;
+  background-color: #2230D2;
   color: #fff;
 }
