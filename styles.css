@@ -357,7 +357,7 @@ a {
 .contact-button {
   background-color: #fff;
   color: #6070ff;
-  border: 0;
+  border: 1px solid #6070ff;
   border-radius: 8px;
   height: 48px;
   width: 140px;
@@ -373,6 +373,6 @@ a {
 }
 
 .contact-button:active {
-  background-color: #2230D2;
+  background-color: #2230d2;
   color: #fff;
 }
