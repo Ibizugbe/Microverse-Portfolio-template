@@ -47,10 +47,7 @@ a {
 
 #intro {
   background-image: url(./Assets/background-images/header-shapes-mobile.svg);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   padding-left: 15px;
   border-bottom-left-radius: 80px;
@@ -581,5 +578,10 @@ a {
     font-size: 38px;
     font-weight: 700;
     margin-bottom: 0;
+  }
+
+  .contact-button-li {
+    display: grid;
+    justify-content: center;
   }
 }
