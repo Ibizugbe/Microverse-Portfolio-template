@@ -404,6 +404,7 @@ a {
   font-size: 12px;
   font-weight: 500;
   line-height: 20px;
+  color: #344563;
 }
 
 /* MOBILE */
@@ -428,6 +429,12 @@ a {
 
   .brand-logo {
     padding-left: 60px;
+    transition: transform 2s;
+  }
+
+  .brand-logo:hover {
+    color: #2230d2;
+    transform: rotate(360deg);
   }
 
   #intro {
