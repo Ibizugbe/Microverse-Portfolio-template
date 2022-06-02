@@ -46,15 +46,21 @@ a {
 }
 
 #intro {
+  background-color: white;
+  padding-top: 80px;
+  border-bottom-left-radius: 80px;
+}
+
+.intro-container {
   background-image: url(./Assets/background-images/header-shapes-mobile.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  padding-left: 15px;
+  padding-left: 20px;
   border-bottom-left-radius: 80px;
-  padding-right: 15px;
-  padding-top: 100px;
+  padding-right: 30px;
+  padding-top: 20px;
   background-color: white;
-  padding-bottom: 150px;
+  padding-bottom: 200px;
 }
 
 .greetings {
@@ -425,6 +431,12 @@ a {
   }
 
   #intro {
+    padding-top: 0;
+    background-color: white;
+    border-bottom-left-radius: 150px;
+  }
+
+  .intro-container {
     background-image: url(./Assets/background-images/background-header-web.svg);
     background-size: contain;
     background-repeat: no-repeat;
