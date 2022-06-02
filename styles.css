@@ -1,7 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
-  width: 318px;
+  background-color: #f7f7f9;
 }
 
 ul {
@@ -46,24 +46,30 @@ a {
 }
 
 #intro {
-  background-image: url(./Assets/background-images/header-shapes\ mobile.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: contain;
-  padding-left: 15px;
-  border-bottom-left-radius: 80px;
-  padding-right: 15px;
+  background-color: white;
   padding-top: 80px;
-  padding-bottom: 150px;
+  border-bottom-left-radius: 80px;
+}
+
+.intro-container {
+  background-image: url(./Assets/background-images/header-shapes-mobile.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  border-bottom-left-radius: 80px;
+  padding-right: 30px;
+  padding-top: 20px;
+  background-color: white;
+  padding-bottom: 200px;
 }
 
 .greetings {
   font-size: 40px;
   font-weight: 700;
-  line-height: 52px;
+  line-height: 50px;
   color: #172b4d;
   padding-right: 10%;
+  margin-bottom: 0;
 }
 
 .intro-text {
@@ -91,7 +97,6 @@ a {
 }
 
 #projects {
-  background-color: #f7f7f9;
   padding-top: 100px;
   padding-bottom: 30px;
   display: grid;
@@ -102,6 +107,7 @@ a {
 .project {
   background-color: #fff;
   margin-top: 30px;
+  padding: 20px;
   margin-right: 24px;
   margin-left: 24px;
   border-radius: 16px 16px 16px 16px;
@@ -111,9 +117,6 @@ a {
 .project-image {
   display: flex;
   justify-content: center;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 15px;
 }
 
 .project-content {
@@ -161,12 +164,13 @@ a {
   padding: 4px 12px 4px 12px;
   font-size: 12px;
   border-radius: 8px 8px 8px 8px;
-  float: left;
+  display: inline;
   margin-right: 10px;
 }
 
 .languages {
   padding-left: 0;
+  display: block;
 }
 
 .project-link {
@@ -212,7 +216,7 @@ a {
   padding-right: 29px;
   padding-left: 29px;
   padding-top: 80px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   border-top-right-radius: 50px;
 }
 
@@ -224,10 +228,19 @@ a {
   padding-right: 50%;
 }
 
+#about-section {
+  background-color: white;
+  border-top-right-radius: 80px;
+}
+
 .about-text {
   font-size: 16px;
   color: #344563;
   font-weight: 400;
+}
+
+.language-container {
+  padding: 0 20px 30px 20px;
 }
 
 .language-header {
@@ -243,9 +256,9 @@ a {
 }
 
 .my-language {
-  margin-top: 40px;
+  margin-top: px;
   margin-bottom: 0;
-  padding-left: 0;
+  padding: 0 20px 0 10px;
 }
 
 .my-language-text {
@@ -274,14 +287,15 @@ a {
 .frameworks,
 .skills {
   border-bottom: 1px solid #dfe1e6;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 .language-header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 10px;
 }
 
 .contact-ul {
@@ -326,6 +340,7 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
+  margin-top: 100px;
   padding-top: 80px;
   padding-bottom: 80px;
   border-top-left-radius: 80px;
@@ -375,4 +390,209 @@ a {
 .contact-button:active {
   background-color: #2230d2;
   color: #fff;
+}
+
+/* desktop */
+.nested-nav-ul {
+  display: flex;
+  align-items: center;
+  padding-right: 60px;
+}
+
+.nested-nav-li {
+  margin-right: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .nested-nav-li {
+    display: none;
+  }
+
+  .nested-nav-ul {
+    padding-right: 10px;
+  }
+
+  .project-image-web {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .hamburger-bar {
+    display: none;
+  }
+
+  .brand-logo {
+    padding-left: 60px;
+  }
+
+  #intro {
+    background-color: white;
+    border-bottom-left-radius: 150px;
+  }
+
+  .intro-container {
+    background-image: url(./Assets/background-images/background-header-web.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 250px;
+    background-color: white;
+    border-bottom-left-radius: 150px;
+    padding-right: 150px;
+    padding-top: 160px;
+    padding-bottom: 200px;
+  }
+
+  .greetings {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+    padding-right: 400px;
+  }
+
+  .intro-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-right: 100px;
+  }
+
+  .project {
+    display: flex;
+  }
+
+  #projects {
+    padding: 90px;
+  }
+
+  .first-project-image {
+    display: none;
+  }
+
+  .project-image-web {
+    width: 100%;
+    height: 100%;
+  }
+
+  .project-content {
+    padding-left: 40px;
+    width: 50%;
+  }
+
+  #second-project {
+    flex-direction: row-reverse;
+  }
+
+  #fourth-project {
+    flex-direction: row-reverse;
+  }
+
+  .project-heading {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+  }
+
+  .content-text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .description-text {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+
+  .about-container {
+    display: flex;
+    padding: 100px 120px;
+    padding-top: 0;
+    border-top-right-radius: 120px;
+  }
+
+  #about-section {
+    border-top-right-radius: 120px;
+  }
+
+  .language-container {
+    width: 55%;
+    padding-top: 80px;
+  }
+
+  .my-language-container {
+    display: inline;
+    margin-right: 10px;
+    background-color: #f7f7f9;
+    height: 90px;
+    width: 90px;
+  }
+
+  .my-language {
+    display: flex;
+    margin-top: 0;
+  }
+
+  .frameworks,
+  .skills {
+    padding: 5px 0 5px 0;
+  }
+
+  .my-language-text {
+    padding-left: 0;
+    margin: 0;
+  }
+
+  .about {
+    width: 45%;
+  }
+
+  .language-header-container {
+    padding: 10px 10px;
+  }
+
+  #contact-me {
+    display: flex;
+    justify-content: center;
+    background-image: url(./Assets/background-images/contact-form-background-image-web.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 120px;
+  }
+
+  .contact-container {
+    width: 40%;
+  }
+
+  .input-text {
+    border-radius: 0;
+  }
+
+  .contact-text-area {
+    border-radius: 0;
+  }
+
+  .contact-paragraph {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+  }
+
+  .contact-header {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+
+  .contact-button-li {
+    display: grid;
+    justify-content: center;
+  }
 }
