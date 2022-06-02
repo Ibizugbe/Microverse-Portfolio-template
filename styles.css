@@ -431,7 +431,6 @@ a {
   }
 
   #intro {
-    padding-top: 0;
     background-color: white;
     border-bottom-left-radius: 150px;
   }
@@ -445,7 +444,7 @@ a {
     background-color: white;
     border-bottom-left-radius: 150px;
     padding-right: 150px;
-    padding-top: 220px;
+    padding-top: 160px;
     padding-bottom: 200px;
   }
 
