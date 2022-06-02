@@ -602,4 +602,10 @@ a {
     display: grid;
     justify-content: center;
   }
+
+  .project-image-web:hover {
+    transform: scale(1.2);
+    transform-origin: 1%;
+    transition-duration: 1s;
+  }
 }
