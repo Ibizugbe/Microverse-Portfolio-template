@@ -213,7 +213,7 @@ a {
   padding-right: 29px;
   padding-left: 29px;
   padding-top: 80px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   border-top-right-radius: 50px;
 }
 
@@ -225,10 +225,19 @@ a {
   padding-right: 50%;
 }
 
+#about-section {
+  background-color: white;
+  border-top-right-radius: 80px;
+}
+
 .about-text {
   font-size: 16px;
   color: #344563;
   font-weight: 400;
+}
+
+.language-container {
+  padding: 0 20px 30px 20px;
 }
 
 .language-header {
@@ -244,9 +253,9 @@ a {
 }
 
 .my-language {
-  margin-top: 40px;
+  margin-top: px;
   margin-bottom: 0;
-  padding-left: 0;
+  padding: 0px 20px 0 10px;
 }
 
 .my-language-text {
@@ -275,14 +284,15 @@ a {
 .frameworks,
 .skills {
   border-bottom: 1px solid #dfe1e6;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 .language-header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 10px;
 }
 
 .contact-ul {
@@ -327,6 +337,7 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
+  margin-top: 100px;
   padding-top: 80px;
   padding-bottom: 80px;
   border-top-left-radius: 80px;
@@ -488,11 +499,14 @@ a {
     font-weight: 400;
   }
 
-  #about-section {
+  .about-container {
     display: flex;
     padding: 100px 120px;
-    background-color: white;
     padding-top: 0;
+    border-top-right-radius: 120px;
+  }
+
+  #about-section {
     border-top-right-radius: 120px;
   }
 
@@ -514,10 +528,7 @@ a {
     margin-top: 0;
   }
 
-  .frameworks {
-    padding: 5px 0 5px 0;
-  }
-
+  .frameworks,
   .skills {
     padding: 5px 0 5px 0;
   }
