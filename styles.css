@@ -534,4 +534,38 @@ a {
   .language-header-container {
     padding: 10px 10px;
   }
+
+  #contact-me {
+    display: flex;
+    justify-content: center;
+    background-image: url(./Assets/background-images/contact-form-background-image-web.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 120px;
+  }
+
+  .contact-container {
+    width: 40%;
+  }
+
+  .input-text {
+    border-radius: 0;
+  }
+
+  .contact-text-area {
+    border-radius: 0;
+  }
+
+  .contact-paragraph {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+  }
+
+  .contact-header {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
 }
