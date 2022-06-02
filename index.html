@@ -16,21 +16,28 @@
     <header>
       <nav class="nav">
         <ul class="nav-list">
-          <li>
+          <li class="brand-logo">
             <a href="index.html" class="logo-link"> AOI </a>
           </li>
           <li>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
-              class="bi bi-list"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
-              />
-            </svg>
+            <ul class="nested-nav-ul">
+              <li class="hamburger-bar">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  class="bi bi-list"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                  />
+                </svg>
+              </li>
+              <li class="nested-nav-li">Portfolio</li>
+              <li class="nested-nav-li">About</li>
+              <li class="nested-nav-li">Contact</li>
+            </ul>
           </li>
         </ul>
       </nav>
@@ -42,7 +49,7 @@
           I’m a software developer! I can help you build a product , feature or
           website Look through some of my work and experience! If you like what
           you see and have a project you need coded, don’t hestiate to contact
-          me. LET’S CONNECT
+          me.
         </p>
         <p class="connect">LET’S CONNECT</p>
         <ul class="connect-links">
@@ -97,10 +104,17 @@
       <section id="projects">
         <div id="first-project" class="project">
           <div class="project-image">
+            <!-- mobile-image -->
             <img
-              src="./Assets/other-images/project-1.jpg"
+              src="./Assets/other-images/project-2.jpg"
               alt="project"
               class="first-project-image"
+            />
+            <!-- web-image -->
+            <img
+              src="./Assets/other-images/1st-project-image.png"
+              alt="project"
+              class="project-image-web"
             />
           </div>
           <div class="project-content">
@@ -139,10 +153,17 @@
         <!-- second project -->
         <div id="second-project" class="project">
           <div class="project-image">
+            <!-- mobile-image -->
             <img
               src="./Assets/other-images/project-2.jpg"
               alt="project"
               class="first-project-image"
+            />
+            <!-- web-image -->
+            <img
+              src="./Assets/other-images/2nd-project-image.png"
+              alt="project"
+              class="project-image-web"
             />
           </div>
           <div class="project-content">
@@ -181,10 +202,17 @@
         <!-- third project -->
         <div id="third-project" class="project">
           <div class="project-image">
+            <!-- mobile-image -->
             <img
-              src="./Assets/other-images/project-1.jpg"
+              src="./Assets/other-images/project-2.jpg"
               alt="project"
               class="first-project-image"
+            />
+            <!-- web-image -->
+            <img
+              src="./Assets/other-images/3rd-project-image.png"
+              alt="project"
+              class="project-image-web"
             />
           </div>
           <div class="project-content">
@@ -223,10 +251,17 @@
         <!-- fourth project -->
         <div id="fourth-project" class="project">
           <div class="project-image">
+            <!-- mobile-image -->
             <img
               src="./Assets/other-images/project-2.jpg"
               alt="project"
               class="first-project-image"
+            />
+            <!-- web-image -->
+            <img
+              src="./Assets/other-images/4th-project-image.png"
+              alt="project"
+              class="project-image-web"
             />
           </div>
           <div class="project-content">
@@ -322,41 +357,41 @@
             </li>
           </ul>
           <button class="btn project-link" type="button">Get my resume</button>
-          <div class="">
-            <ul class="about-languages">
-              <li>
-                <div class="language-header-container">
-                  <h3 class="language-header">Lanuages</h3>
-                  <img src="./Assets/Icons/icon-down.png" alt="" />
-                </div>
-                <ul class="my-language">
-                  <li class="my-language-container">
-                    <img
-                      src="./Assets/Icons/javascript-icon.png"
-                      alt="javaScript"
-                    />
-                    <p class="my-language-text">javaScript</p>
-                  </li>
-                  <li class="my-language-container">
-                    <img src="./Assets/Icons/css-icon.png" alt="CSS" />
-                    <p class="my-language-text">CSS</p>
-                  </li>
-                  <li class="my-language-container">
-                    <img src="./Assets/Icons/html-icon.png" alt="HTML" />
-                    <p class="my-language-text">HTML</p>
-                  </li>
-                </ul>
-              </li>
-              <li class="language-header-container frameworks">
-                <h3 class="language-header">Frameworks</h3>
-                <img src="/Assets/Icons/icon-right.png" alt="" />
-              </li>
-              <li class="language-header-container skills">
-                <h3 class="language-header">Skills</h3>
-                <img src="/Assets/Icons/icon-right.png" alt="" />
-              </li>
-            </ul>
-          </div>
+        </div>
+        <div class="language-container">
+          <ul class="about-languages">
+            <li>
+              <div class="language-header-container">
+                <h3 class="language-header">Lanuages</h3>
+                <img src="./Assets/Icons/icon-down.png" alt="" />
+              </div>
+              <ul class="my-language">
+                <li class="my-language-container">
+                  <img
+                    src="./Assets/Icons/javascript-icon.png"
+                    alt="javaScript"
+                  />
+                  <p class="my-language-text">javaScript</p>
+                </li>
+                <li class="my-language-container">
+                  <img src="./Assets/Icons/css-icon.png" alt="CSS" />
+                  <p class="my-language-text">CSS</p>
+                </li>
+                <li class="my-language-container">
+                  <img src="./Assets/Icons/html-icon.png" alt="HTML" />
+                  <p class="my-language-text">HTML</p>
+                </li>
+              </ul>
+            </li>
+            <li class="language-header-container frameworks">
+              <h3 class="language-header">Frameworks</h3>
+              <img src="/Assets/Icons/icon-right.png" alt="" />
+            </li>
+            <li class="language-header-container skills">
+              <h3 class="language-header">Skills</h3>
+              <img src="/Assets/Icons/icon-right.png" alt="" />
+            </li>
+          </ul>
         </div>
       </section>
       <!-- contact section -->
