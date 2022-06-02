@@ -255,7 +255,7 @@ a {
 .my-language {
   margin-top: px;
   margin-bottom: 0;
-  padding: 0px 20px 0 10px;
+  padding: 0 20px 0 10px;
 }
 
 .my-language-text {
@@ -402,11 +402,13 @@ a {
   font-weight: 500;
   line-height: 20px;
 }
+
 /* MOBILE */
 @media (max-width: 768px) {
   .nested-nav-li {
     display: none;
   }
+  
   .nested-nav-ul {
     padding-right: 10px;
   }
@@ -424,6 +426,7 @@ a {
   .brand-logo {
     padding-left: 60px;
   }
+  
   #intro {
     background-image: url(./Assets/background-images/background-header-web.svg);
     background-size: contain;
