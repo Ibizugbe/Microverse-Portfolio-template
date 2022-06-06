@@ -192,6 +192,9 @@ a {
 .btn:hover {
   background-color: #6070ff;
   color: white;
+  transform: scale(1.05);
+  transform-origin: 1%;
+  transition-duration: 0.2s;
 }
 
 .btn:active {
@@ -427,19 +430,13 @@ a {
     display: none;
   }
 
-  .brand-logo {
-    padding-left: 60px;
-    transition: transform 2s;
-  }
-
-  .brand-logo:hover {
-    color: #2230d2;
-    transform: rotate(360deg);
-  }
-
   #intro {
     background-color: white;
     border-bottom-left-radius: 150px;
+  }
+
+  .brand-logo {
+    padding-left: 60px;
   }
 
   .intro-container {
@@ -603,9 +600,30 @@ a {
     justify-content: center;
   }
 
-  .project-image-web:hover {
-    transform: scale(1.2);
+  .project:hover {
+    transform: scale(1.015);
     transform-origin: 1%;
     transition-duration: 1s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+
+  .nav-li:hover {
+    transform: scale(1.15);
+    transform-origin: 1%;
+    transition-duration: 0.1s;
+    border-bottom: 1px solid #172b4d;
+  }
+}
+
+/* animations */
+.brand-logo:hover {
+  transform: scale(1.15);
+  transform-origin: 1%;
+  transition-duration: 0.1s;
+}
+
+.social-icons:hover {
+  transform: scale(1.2);
+  transform-origin: 1%;
+  transition-duration: 0.1s;
 }
