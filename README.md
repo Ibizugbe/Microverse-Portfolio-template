@@ -9,7 +9,8 @@
 - HTML and CSS
 - stylelint
 
-[Live Demo Link](https://livedemo.com)
+## Live Demo
+[My-Portfolio](https://ibizugbe.github.io/My-Portfolio/)
 
 ## Getting Started
 
@@ -36,7 +37,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- microverse
+- [Microverse](https://www.microverse.org/)
 
 ## 📝 License
 
