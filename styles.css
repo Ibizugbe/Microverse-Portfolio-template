@@ -82,7 +82,7 @@ a {
 }
 
 .connect {
-  color: #6070ff;
+  color: #4859eb;
   font-weight: 500;
   font-size: 15px;
 }
@@ -140,7 +140,7 @@ a {
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
-  color: #7a869a;
+  color: #597099;
   display: inline;
 }
 
@@ -163,7 +163,7 @@ a {
 
 .language-used {
   background-color: #ebebff;
-  color: #6070ff;
+  color: #4154ff;
   padding: 4px 12px 4px 12px;
   font-size: 12px;
   border-radius: 8px 8px 8px 8px;
@@ -377,8 +377,8 @@ a {
 
 .contact-button {
   background-color: #fff;
-  color: #6070ff;
-  border: 1px solid #6070ff;
+  color: #5264ff;
+  border: 1px solid #5264ff;
   border-radius: 8px;
   height: 48px;
   width: 140px;
