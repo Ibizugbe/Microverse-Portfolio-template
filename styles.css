@@ -19,6 +19,7 @@ ul {
   align-items: center;
   padding-left: 0;
   margin: 5px 5px;
+  margin: 0;
 }
 
 a {
@@ -46,6 +47,7 @@ a {
   right: 0;
   position: fixed;
   z-index: 1000;
+  background-color: white;
   opacity: 95%;
 }
 
@@ -83,7 +85,7 @@ a {
 }
 
 .connect {
-  color: #6070ff;
+  color: #4859eb;
   font-weight: 500;
   font-size: 15px;
 }
@@ -141,7 +143,7 @@ a {
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
-  color: #7a869a;
+  color: #597099;
   display: inline;
 }
 
@@ -164,7 +166,7 @@ a {
 
 .language-used {
   background-color: #ebebff;
-  color: #6070ff;
+  color: #4154ff;
   padding: 4px 12px 4px 12px;
   font-size: 12px;
   border-radius: 8px 8px 8px 8px;
@@ -196,6 +198,9 @@ a {
 .btn:hover {
   background-color: #6070ff;
   color: white;
+  transform: scale(1.05);
+  transform-origin: 1%;
+  transition-duration: 0.2s;
 }
 
 .btn:active {
@@ -374,8 +379,8 @@ a {
 
 .contact-button {
   background-color: #fff;
-  color: #6070ff;
-  border: 1px solid #6070ff;
+  color: #5264ff;
+  border: 1px solid #5264ff;
   border-radius: 8px;
   height: 48px;
   width: 140px;
@@ -407,6 +412,7 @@ a {
   font-size: 12px;
   font-weight: 500;
   line-height: 20px;
+  color: #344563;
 }
 
 .close-hamb {
@@ -483,13 +489,13 @@ a {
     display: none;
   }
 
-  .brand-logo {
-    padding-left: 60px;
-  }
-
   #intro {
     background-color: white;
     border-bottom-left-radius: 150px;
+  }
+
+  .brand-logo {
+    padding-left: 60px;
   }
 
   .intro-container {
@@ -653,4 +659,31 @@ a {
     display: grid;
     justify-content: center;
   }
+
+  .project:hover {
+    transform: scale(1.015);
+    transform-origin: 1%;
+    transition-duration: 0.2s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .nav-li:hover {
+    transform: scale(1.15);
+    transform-origin: 1%;
+    transition-duration: 0.1s;
+    border-bottom: 1px solid #172b4d;
+  }
+}
+
+/* animations */
+.brand-logo:hover {
+  transform: scale(1.15);
+  transform-origin: 1%;
+  transition-duration: 0.1s;
+}
+
+.social-icons:hover {
+  transform: scale(1.2);
+  transform-origin: 1%;
+  transition-duration: 0.1s;
 }
