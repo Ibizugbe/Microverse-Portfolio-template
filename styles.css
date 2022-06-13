@@ -47,7 +47,6 @@ a {
   right: 0;
   position: fixed;
   z-index: 1000;
-  background-color: white;
   opacity: 95%;
 }
 
@@ -416,9 +415,9 @@ a {
 }
 
 .close-hamb {
+  font-size: 40px;
+  font-weight: 300;
   color: white;
-  font-size: 35px;
-  font-weight: 400;
   padding-right: 32px;
 }
 
@@ -450,11 +449,6 @@ a {
 
 .mobile-nav-li {
   padding-top: 25px;
-}
-
-.close-hamb {
-  font-size: 40px;
-  font-weight: 300;
 }
 
 /* MOBILE */
