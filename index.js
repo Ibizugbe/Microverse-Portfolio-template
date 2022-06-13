@@ -9,11 +9,6 @@ menuOpen.addEventListener("click", () => {
   navList.style.display = "none";
 });
 
-menuOpen.addEventListener("click", () => {
-  containerNav.style.display = "flex";
-  navList.style.display = "none";
-});
-
 about.forEach((n) => {
   n.addEventListener("click", () => {
     containerNav.style.display = "none";
