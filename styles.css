@@ -31,7 +31,6 @@ a {
 }
 
 .bi-list {
-  margin-top: px;
   width: 30px;
   height: 30px;
   color: #6070ff;
@@ -40,8 +39,6 @@ a {
 }
 
 .nav {
-  padding-left: px;
-  padding-right: 15px;
   background-color: white;
   top: 0;
   left: 0;
@@ -261,7 +258,6 @@ a {
 }
 
 .my-language {
-  margin-top: px;
   margin-bottom: 0;
   padding: 0 20px 0 10px;
 }
@@ -421,6 +417,7 @@ a {
 .hamb-ul {
   padding: 0;
 }
+
 .container-nav {
   position: fixed;
   height: 100vh;
@@ -435,7 +432,6 @@ a {
 
 .mobile-nav-item {
   margin: 0;
-  padding: 0;
   font-size: 32px;
   font-weight: 600;
   padding: 70px 0 0 30px;
