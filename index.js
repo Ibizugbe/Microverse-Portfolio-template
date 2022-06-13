@@ -7,3 +7,9 @@ menuOpen.addEventListener("click", () => {
   containerNav.style.display = "flex";
   navList.style.display = "none";
 });
+
+menuClose.addEventListener("click", () => {
+    containerNav.style.display = "none";
+    navList.style.display = "flex";
+  });
+  
