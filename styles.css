@@ -18,6 +18,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   padding-left: 0;
+  margin: 5px 5px;
 }
 
 a {
@@ -45,6 +46,7 @@ a {
   right: 0;
   position: fixed;
   z-index: 1000;
+  opacity: 95%;
 }
 
 #intro {
@@ -55,7 +57,7 @@ a {
 
 .intro-container {
   background-image: url(./Assets/background-images/header-shapes-mobile.svg);
-  background-size: cover;
+  background-size: calc(100%);
   background-repeat: no-repeat;
   padding-left: 20px;
   border-bottom-left-radius: 80px;
@@ -339,7 +341,7 @@ a {
   background-image: url(Assets/background-images/contact-form-shapes-mobile.svg);
   background-color: #6070ff;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: calc(70%);
   background-position: right;
   margin-top: 100px;
   padding-top: 80px;
@@ -422,12 +424,10 @@ a {
   position: fixed;
   height: 100vh;
   width: 100%;
-  opacity: 90%;
-  background-color: #6070ff;
   margin: 0;
   display: none;
-  transition: 3s;
   justify-content: space-between;
+  background-color: #6070ff;
 }
 
 .mobile-nav-item {
@@ -440,6 +440,15 @@ a {
 
 .mobile-nav-links {
   color: white;
+}
+
+.mobile-nav-li {
+  padding-top: 25px;
+}
+
+.close-hamb {
+  font-size: 40px;
+  font-weight: 300;
 }
 
 /* MOBILE */
