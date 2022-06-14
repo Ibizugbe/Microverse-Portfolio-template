@@ -418,11 +418,13 @@ a {
   font-size: 40px;
   font-weight: 300;
   color: white;
-  padding-right: 32px;
+  padding-right: 15px;
+  padding-top: 0px;
 }
 
 .hamb-ul {
   padding: 0;
+  margin: 0;
 }
 
 .container-nav {
