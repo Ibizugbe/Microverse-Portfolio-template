@@ -1,32 +1,31 @@
-const menuOpen = document.querySelector(".bi-list");
-const containerNav = document.querySelector(".container-nav");
-const menuClose = document.querySelector(".close-hamb");
-const navList = document.querySelector(".nav-list");
-const about = document.querySelectorAll(".mobile-nav-links");
+const menuOpen = document.querySelector('.bi-list');
+const containerNav = document.querySelector('.container-nav');
+const menuClose = document.querySelector('.close-hamb');
+const navList = document.querySelector('.nav-list');
+const about = document.querySelectorAll('.mobile-nav-links');
 
-menuOpen.addEventListener("click", () => {
-  containerNav.style.display = "flex";
-  navList.style.display = "none";
+menuOpen.addEventListener('click', () => {
+  containerNav.style.display = 'flex';
+  navList.style.display = 'none';
 });
 
-menuClose.addEventListener("click", () => {
-  containerNav.style.display = "none";
-  navList.style.display = "flex";
+menuClose.addEventListener('click', () => {
+  containerNav.style.display = 'none';
+  navList.style.display = 'flex';
 });
 
 about.forEach((n) => {
-  n.addEventListener("click", () => {
-    containerNav.style.display = "none";
-    navList.style.display = "flex";
+  n.addEventListener('click', () => {
+    containerNav.style.display = 'none';
+    navList.style.display = 'flex';
   });
 });
 
 // popup window
-const seeProject = document.querySelector(".project-link");
 const projects = [
   {
-    name: "Tonic",
-    featuredImg: "Assets/other-images/1st-project-image.png",
+    name: 'Tonic',
+    featuredImg: 'Assets/other-images/1st-project-image.png',
     featuredImgMobile: "Assets/other-images/project-1.jpg",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.",
@@ -111,8 +110,7 @@ projects.forEach((element, i) => {
   countImage2.classList.add("count-vector");
   yearText.innerText = "2018";
   yearText.classList.add("content-text");
-  pDescription.innerText =
-    "A daily selection of privately personalized reads; no accounts or sign-ups required";
+  pDescription.innerText = "A daily selection of privately personalized reads; no accounts or sign-ups required";
   languageUl.classList.add("languages");
   // place elements in document
   projectDiv.classList.add("project");
@@ -129,7 +127,7 @@ projects.forEach((element, i) => {
     countImage,
     backText,
     countImage2,
-    yearText
+    yearText,
   );
 
   projects[i].technologies.forEach((tech, n) => {
