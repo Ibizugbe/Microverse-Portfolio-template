@@ -197,22 +197,26 @@ modal.innerHTML = `
       <li class="language-used modal-li">javaScript</li>
     </ul>
     <hr class="modal-hr" />
-    <button class="btn modal-btn" type="submit">
-      See live
-      <img
-        src="./Assets/vectors/git-modalicon.svg"
-        class="modal-vectors"
-        alt=""
-      />
-    </button>
-    <button class="btn modal-btn" type="submit">
-      See Source
-      <img
-        src="./Assets/vectors/source-code-icon.svg"
-        class="modal-vectors"
-        alt=""
-      />
-    </button>
+    <a href="https://ibizugbe.github.io/My-Portfolio/">
+      <button class="btn modal-btn" type="submit">
+        See live
+        <img
+          src="./Assets/vectors/git-modalicon.svg"
+          class="modal-vectors"
+          alt="git"
+        />
+      </button>
+    </a>
+    <a href="https://github.com/Ibizugbe/My-Portfolio">
+      <button class="btn modal-btn" type="submit">
+        See Source
+        <img
+          src="./Assets/vectors/source-code-icon.svg"
+          class="modal-vectors"
+          alt="source-code"
+        />
+      </button>
+    </a>
   </div>
 </div>
 `;
