@@ -1,15 +1,18 @@
 {
-  "connector": "local",
-  "extends": ["accessibility", "progressive-web-apps"],
-  "formatters": ["html", "summary"],
-  "hints": {
-    "axe": "error",
-    "babel-config/is-valid": "error",
-    "disown-opener": "error",
-    "highest-available-document-mode": "error",
-    "manifest-exists": "off",
-    "meta-charset-utf-8": "error",
-    "meta-viewport": "error"
+  "connector": {
+    "name": "local",
+    "options": {
+      "pattern": ["**", "!.git/**", "!node_modules/**"]
+    }
   },
-  "hintsTimeout": 10000
+  "extends": ["development"],
+  "formatters": ["stylish"],
+  "hints": [
+    "button-type",
+    "disown-opener",
+    "html-checker",
+    "meta-charset-utf-8",
+    "meta-viewport",
+    "no-inline-styles:error"
+  ]
 }
