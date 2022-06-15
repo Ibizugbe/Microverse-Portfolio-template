@@ -26,20 +26,18 @@ const projects = [
   {
     name: 'Tonic',
     featuredImg: 'Assets/other-images/1st-project-image.png',
-    featuredImgMobile: "Assets/other-images/project-1.jpg",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.",
-    technologies: ["HTML", "CSS", "javaScript"],
-    liveVersion: "https://ibizugbe.github.io/My-Portfolio/",
-    sourceCode: "https://github.com/Ibizugbe/My-Portfolio",
+    featuredImgMobile: 'Assets/other-images/project-1.jpg',
+    description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
+    technologies: ['HTML', 'CSS', 'javaScript'],
+    liveVersion: 'https://ibizugbe.github.io/My-Portfolio/',
+    sourceCode: 'https://github.com/Ibizugbe/My-Portfolio',
   },
 
   {
-    name: "Multi-Post Stories",
-    featuredImg: "Assets/other-images/2nd-project-image.png",
-    featuredImgMobile: "Assets/other-images/project-2.jpg",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.",
+    name: 'Multi-Post Stories',
+    featuredImg: 'Assets/other-images/2nd-project-image.png',
+    featuredImgMobile: 'Assets/other-images/project-2.jpg',
+    description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
     technologies: ["HTML", "CSS", "javaScript"],
     liveVersion: "https://ibizugbe.github.io/My-Portfolio/",
     sourceCode: "https://github.com/Ibizugbe/My-Portfolio",
@@ -49,79 +47,77 @@ const projects = [
     name: "Tonic",
     featuredImg: "Assets/other-images/3rd-project-image.png",
     featuredImgMobile: "Assets/other-images/project-3.jpg",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.",
-    technologies: ["HTML", "CSS", "javaScript"],
-    liveVersion: "https://ibizugbe.github.io/My-Portfolio/",
-    sourceCode: "https://github.com/Ibizugbe/My-Portfolio",
+    description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
+    technologies: ['HTML', 'CSS', 'javaScript'],
+    liveVersion: 'https://ibizugbe.github.io/My-Portfolio/',
+    sourceCode: 'https://github.com/Ibizugbe/My-Portfolio',
   },
 
   {
-    name: "Multi-Post Stories",
-    featuredImg: "Assets/other-images/4th-project-image.png",
-    featuredImgMobile: "Assets/other-images/project-4.jpg",
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.",
-    technologies: ["HTML", "CSS", "javaScript"],
-    liveVersion: "https://ibizugbe.github.io/My-Portfolio/",
-    sourceCode: "https://github.com/Ibizugbe/My-Portfolio",
+    name: 'Multi-Post Stories',
+    featuredImg: 'Assets/other-images/4th-project-image.png',
+    featuredImgMobile: 'Assets/other-images/project-4.jpg',
+    description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
+    technologies: ['HTML', 'CSS', 'javaScript'],
+    liveVersion: 'https://ibizugbe.github.io/My-Portfolio/',
+    sourceCode: 'https://github.com/Ibizugbe/My-Portfolio',
   },
 ];
 
 projects.forEach((element, i) => {
   // create all elements used for card
-  const projectContainer = document.querySelector("#projects");
-  const projectDiv = document.createElement("div");
-  const projectImageDiv = document.createElement("div");
-  const projectContentDiv = document.createElement("div");
-  const projectImageWeb = document.createElement("img");
-  const projectImageMobile = document.createElement("img");
-  const countImage = document.createElement("img");
-  const countImage2 = document.createElement("img");
-  const canopyText = document.createElement("h3");
-  const backText = document.createElement("h3");
-  const yearText = document.createElement("h3");
-  const projectHeader = document.createElement("h2");
-  const projectBody = document.createElement("div");
-  const projectDescription = document.createElement("div");
-  const pDescription = document.createElement("p");
-  const languageUl = document.createElement("ul");
-  const projectBtn = document.createElement("button");
+  const projectContainer = document.querySelector('#projects');
+  const projectDiv = document.createElement('div');
+  const projectImageDiv = document.createElement('div');
+  const projectContentDiv = document.createElement('div');
+  const projectImageWeb = document.createElement('img');
+  const projectImageMobile = document.createElement('img');
+  const countImage = document.createElement('img');
+  const countImage2 = document.createElement('img');
+  const canopyText = document.createElement('h3');
+  const backText = document.createElement('h3');
+  const yearText = document.createElement('h3');
+  const projectHeader = document.createElement('h2');
+  const projectBody = document.createElement('div');
+  const projectDescription = document.createElement('div');
+  const pDescription = document.createElement('p');
+  const languageUl = document.createElement('ul');
+  const projectBtn = document.createElement('button');
 
   // initialise elements
   // card image
   projectImageWeb.src = element.featuredImg;
-  projectImageWeb.classList.add("project-image-web");
-  projectImageWeb.alt = "project-image";
+  projectImageWeb.classList.add('project-image-web');
+  projectImageWeb.alt = 'project-image';
   projectImageMobile.src = element.featuredImgMobile;
-  projectImageMobile.classList.add("first-project-image");
-  projectImageMobile.alt = "First-project";
+  projectImageMobile.classList.add('first-project-image');
+  projectImageMobile.alt = 'First-project';
   // cardheader
-  projectHeader.classList.add("project-heading");
+  projectHeader.classList.add('project-heading');
   projectHeader.innerText = element.name;
   // stact text
-  canopyText.innerText = "canopy";
-  canopyText.classList.add("content-text", "canopy");
-  countImage.src = "./Assets/vectors/Counter.svg";
-  countImage.classList.add("count-vector");
-  backText.innerText = "Back end dev";
-  backText.classList.add("content-text");
-  countImage2.src = "./Assets/vectors/Counter.svg";
-  countImage2.classList.add("count-vector");
-  yearText.innerText = "2018";
-  yearText.classList.add("content-text");
-  pDescription.innerText = "A daily selection of privately personalized reads; no accounts or sign-ups required";
-  languageUl.classList.add("languages");
+  canopyText.innerText = 'canopy';
+  canopyText.classList.add('content-text', 'canopy');
+  countImage.src = './Assets/vectors/Counter.svg';
+  countImage.classList.add('count-vector');
+  backText.innerText = 'Back end dev';
+  backText.classList.add('content-text');
+  countImage2.src = './Assets/vectors/Counter.svg';
+  countImage2.classList.add('count-vector');
+  yearText.innerText = '2018';
+  yearText.classList.add('content-text');
+  pDescription.innerText = 'A daily selection of privately personalized reads; no accounts or sign-ups required';
+  languageUl.classList.add('languages');
   // place elements in document
-  projectDiv.classList.add("project");
+  projectDiv.classList.add('project');
   projectDiv.append(projectImageDiv, projectContentDiv);
-  projectImageDiv.classList.add("project-image");
+  projectImageDiv.classList.add('project-image');
   projectImageDiv.append(projectImageMobile, projectImageWeb);
-  projectContentDiv.classList.add("project-content");
+  projectContentDiv.classList.add('project-content');
   projectContentDiv.append(projectHeader, projectBody);
-  projectBody.classList.add("project-body");
+  projectBody.classList.add('project-body');
   projectBody.append(projectDescription, pDescription, languageUl, projectBtn);
-  projectDescription.classList.add("description");
+  projectDescription.classList.add('description');
   projectDescription.append(
     canopyText,
     countImage,
@@ -131,27 +127,27 @@ projects.forEach((element, i) => {
   );
 
   projects[i].technologies.forEach((tech, n) => {
-    const languageLi = document.createElement("li");
-    languageLi.classList.add("language-used");
+    const languageLi = document.createElement('li');
+    languageLi.classList.add('language-used');
     languageUl.append(languageLi);
     languageLi.innerText = projects[i].technologies[n];
   });
 
   projectContainer.appendChild(projectDiv);
 
-  projectBtn.classList.add("btn", "project-link");
-  projectBtn.innerText = "see project";
+  projectBtn.classList.add('btn', 'project-link');
+  projectBtn.innerText = 'see project';
   // reverse  card
   if (i % 2 !== 0) {
-    projectDiv.classList.add("card-reverse");
+    projectDiv.classList.add('card-reverse');
   }
 });
 
 // Menu PopUP
-const modalContainer = document.querySelector(".modal-container");
-const modal = document.createElement("div");
+const modalContainer = document.querySelector('.modal-container');
+const modal = document.createElement('div');
 modalContainer.append(modal);
-modal.classList.add("modal");
+modal.classList.add('modal');
 
 modal.innerHTML = `
 <div class="modal-header">
@@ -219,15 +215,15 @@ modal.innerHTML = `
 </div>
 `;
 
-const modalBtnPop = document.querySelectorAll(".project-link");
-const closeButton = document.querySelector(".modal-close");
+const modalBtnPop = document.querySelectorAll('.project-link');
+const closeButton = document.querySelector('.modal-close');
 // eventlistener to open modal
 modalBtnPop.forEach((n) => {
-  n.addEventListener("click", () => {
-    modalContainer.style.display = "flex";
+  n.addEventListener('click', () => {
+    modalContainer.style.display = 'flex';
   });
 });
 // listen for close
-closeButton.addEventListener("click", () => {
-  modalContainer.style.display = "none";
+closeButton.addEventListener('click', () => {
+  modalContainer.style.display = 'none';
 });
