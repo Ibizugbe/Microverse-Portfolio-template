@@ -241,7 +241,7 @@ const errorHolder = document.querySelector('.error');
 contactForm.addEventListener('submit', (e) => {
   let message = contactEmail.value;
   let messageList = message.replace(/[^a-zA-Z]/g, '').split('');
-  for (let i = 0; i < messageList.length; i = i + 1;) {
+  for (let i = 0; i < messageList.length; (i = i + 1);) {
     if (messageList[i] === messageList[i].toUpperCase()) {
       errorHolder.innerText = 'Error: emails must be written with lowercase characters.';
       e.preventDefault();
