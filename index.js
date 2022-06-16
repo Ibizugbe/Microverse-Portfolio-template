@@ -27,7 +27,8 @@ const projects = [
     name: 'Tonic',
     featuredImg: 'Assets/other-images/1st-project-image.png',
     featuredImgMobile: 'Assets/other-images/project-1.jpg',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
+    description:
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
     technologies: ['HTML', 'CSS', 'javaScript'],
     liveVersion: 'https://ibizugbe.github.io/My-Portfolio/',
     sourceCode: 'https://github.com/Ibizugbe/My-Portfolio',
@@ -37,7 +38,8 @@ const projects = [
     name: 'Multi-Post Stories',
     featuredImg: 'Assets/other-images/2nd-project-image.png',
     featuredImgMobile: 'Assets/other-images/project-2.jpg',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
+    description:
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
     technologies: ['HTML', 'CSS', 'javaScript'],
     liveVersion: 'https://ibizugbe.github.io/My-Portfolio/',
     sourceCode: 'https://github.com/Ibizugbe/My-Portfolio',
@@ -47,7 +49,8 @@ const projects = [
     name: 'Tonic',
     featuredImg: 'Assets/other-images/3rd-project-image.png',
     featuredImgMobile: 'Assets/other-images/project-3.jpg',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
+    description:
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
     technologies: ['HTML', 'CSS', 'javaScript'],
     liveVersion: 'https://ibizugbe.github.io/My-Portfolio/',
     sourceCode: 'https://github.com/Ibizugbe/My-Portfolio',
@@ -57,7 +60,8 @@ const projects = [
     name: 'Multi-Post Stories',
     featuredImg: 'Assets/other-images/4th-project-image.png',
     featuredImgMobile: 'Assets/other-images/project-4.jpg',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
+    description:
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
     technologies: ['HTML', 'CSS', 'javaScript'],
     liveVersion: 'https://ibizugbe.github.io/My-Portfolio/',
     sourceCode: 'https://github.com/Ibizugbe/My-Portfolio',
@@ -106,7 +110,8 @@ projects.forEach((element, i) => {
   countImage2.classList.add('count-vector');
   yearText.innerText = '2018';
   yearText.classList.add('content-text');
-  pDescription.innerText = 'A daily selection of privately personalized reads; no accounts or sign-ups required';
+  pDescription.innerText =
+    'A daily selection of privately personalized reads; no accounts or sign-ups required';
   languageUl.classList.add('languages');
   // place elements in document
   projectDiv.classList.add('project');
@@ -123,7 +128,7 @@ projects.forEach((element, i) => {
     countImage,
     backText,
     countImage2,
-    yearText,
+    yearText
   );
 
   projects[i].technologies.forEach((tech, n) => {
