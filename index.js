@@ -27,7 +27,8 @@ const projects = [
     name: 'Tonic',
     featuredImg: 'Assets/other-images/1st-project-image.png',
     featuredImgMobile: 'Assets/other-images/project-1.jpg',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
+    description:
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
     technologies: ['HTML', 'CSS', 'javaScript'],
     liveVersion: 'https://ibizugbe.github.io/My-Portfolio/',
     sourceCode: 'https://github.com/Ibizugbe/My-Portfolio',
@@ -37,7 +38,8 @@ const projects = [
     name: 'Multi-Post Stories',
     featuredImg: 'Assets/other-images/2nd-project-image.png',
     featuredImgMobile: 'Assets/other-images/project-2.jpg',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
+    description:
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
     technologies: ['HTML', 'CSS', 'javaScript'],
     liveVersion: 'https://ibizugbe.github.io/My-Portfolio/',
     sourceCode: 'https://github.com/Ibizugbe/My-Portfolio',
@@ -47,7 +49,8 @@ const projects = [
     name: 'Tonic',
     featuredImg: 'Assets/other-images/3rd-project-image.png',
     featuredImgMobile: 'Assets/other-images/project-3.jpg',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
+    description:
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
     technologies: ['HTML', 'CSS', 'javaScript'],
     liveVersion: 'https://ibizugbe.github.io/My-Portfolio/',
     sourceCode: 'https://github.com/Ibizugbe/My-Portfolio',
@@ -57,7 +60,8 @@ const projects = [
     name: 'Multi-Post Stories',
     featuredImg: 'Assets/other-images/4th-project-image.png',
     featuredImgMobile: 'Assets/other-images/project-4.jpg',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
+    description:
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
     technologies: ['HTML', 'CSS', 'javaScript'],
     liveVersion: 'https://ibizugbe.github.io/My-Portfolio/',
     sourceCode: 'https://github.com/Ibizugbe/My-Portfolio',
@@ -223,7 +227,23 @@ modalBtnPop.forEach((n) => {
     modalContainer.style.display = 'flex';
   });
 });
+
 // listen for close
 closeButton.addEventListener('click', () => {
   modalContainer.style.display = 'none';
+});
+
+// form validation
+const contactForm = document.querySelector('#contact-form');
+const contactEmail = document.querySelector('#contact-email');
+const errorHolder = document.querySelector('.error');
+contactForm.addEventListener('submit', (e) => {
+  const message = contactEmail.value;
+  const messageList = message.replace(/[^a-zA-Z]/g, '').split('');
+  for (let i = 0; i < messageList.length; i += 1) {
+    if (messageList[i] === messageList[i].toUpperCase()) {
+      errorHolder.innerText = 'Error: emails must be written with lowercase characters.';
+      e.preventDefault();
+    }
+  }
 });

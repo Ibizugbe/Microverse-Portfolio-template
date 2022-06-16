@@ -241,7 +241,11 @@
               feature that you need built or a project that needs coding. I’d
               love to help with it
             </p>
-            <form action="https://formspree.io/f/xeqnnvdb" method="post">
+            <form
+              action="https://formspree.io/f/xeqnnvdb"
+              method="post"
+              id="contact-form"
+            >
               <ul class="contact-ul">
                 <li class="form-list">
                   <input
@@ -257,6 +261,7 @@
                   <input
                     type="email"
                     class="input-text"
+                    id="contact-email"
                     required
                     placeholder="example@gmail.com"
                     name="user_email"
@@ -273,6 +278,7 @@
                   ></textarea>
                 </li>
                 <li class="contact-button-li">
+                  <small class="error"></small>
                   <button class="btn contact-button" type="submit">
                     Get in touch
                   </button>
