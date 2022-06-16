@@ -110,8 +110,7 @@ projects.forEach((element, i) => {
   countImage2.classList.add('count-vector');
   yearText.innerText = '2018';
   yearText.classList.add('content-text');
-  pDescription.innerText =
-    'A daily selection of privately personalized reads; no accounts or sign-ups required';
+  pDescription.innerText = 'A daily selection of privately personalized reads; no accounts or sign-ups required';
   languageUl.classList.add('languages');
   // place elements in document
   projectDiv.classList.add('project');
@@ -128,7 +127,7 @@ projects.forEach((element, i) => {
     countImage,
     backText,
     countImage2,
-    yearText
+    yearText,
   );
 
   projects[i].technologies.forEach((tech, n) => {
@@ -238,12 +237,11 @@ const contactForm = document.querySelector('#contact-form');
 const contactEmail = document.querySelector('#contact-email');
 const errorHolder = document.querySelector('.error');
 contactForm.addEventListener('submit', (e) => {
-  var message = contactEmail.value;
-  var messageList = message.replace(/[^a-zA-Z]/g, '').split('');
-  for (let i = 0; i < messageList.length; i++) {
+  let message = contactEmail.value;
+  let messageList = message.replace(/[^a-zA-Z]/g, '').split('');
+  for (let i = 0; i < messageList.length; i = i + 1;) {
     if (messageList[i] === messageList[i].toUpperCase()) {
-      errorHolder.innerText =
-        'Error: emails must be written with lowercase characters.';
+      errorHolder.innerText = 'Error: emails must be written with lowercase characters.';
       e.preventDefault();
     }
   }
