@@ -233,15 +233,14 @@ closeButton.addEventListener('click', () => {
   modalContainer.style.display = 'none';
 });
 
-
 // form validation
 const contactForm = document.querySelector('#contact-form');
 const contactEmail = document.querySelector('#contact-email');
 const errorHolder = document.querySelector('.error');
 contactForm.addEventListener('submit', (e) => {
-  let message = contactEmail.value;
-  let messageList = message.replace(/[^a-zA-Z]/g, '').split('');
-  for (let i = 0; i < messageList.length; (i = i + 1);) {
+  const message = contactEmail.value;
+  const messageList = message.replace(/[^a-zA-Z]/g, '').split('');
+  for (let i = 0; i < messageList.length; i += 1) {
     if (messageList[i] === messageList[i].toUpperCase()) {
       errorHolder.innerText = 'Error: emails must be written with lowercase characters.';
       e.preventDefault();
