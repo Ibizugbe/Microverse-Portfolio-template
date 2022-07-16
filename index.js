@@ -24,8 +24,8 @@ about.forEach((n) => {
 // popup window
 const projects = [
   {
-    name: 'Tonic',
-    featuredImg: 'Assets/other-images/1st-project-image.png',
+    name: 'chopLife',
+    featuredImg: './Assets/other-images/choplife.png',
     featuredImgMobile: 'Assets/other-images/project-1.jpg',
     description:
       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. In illumlaudantium aliquam quaerat dicta minima.',
@@ -155,7 +155,7 @@ modal.classList.add('modal');
 
 modal.innerHTML = `
 <div class="modal-header">
-    <h4 class="modal-heading">Tonic</h4>
+    <h4 class="modal-heading">chopLife</h4>
     <h4 class="modal-close">&times;</h4>
 </div>
 <div class="small-description">
@@ -174,16 +174,16 @@ modal.innerHTML = `
   <p class="modal-describe">2015</p>
 </div>
 <img
-  src="./Assets/other-images/Modal-Snapshoot-Portfolio.png"
+  src="./Assets/other-images/choplife.png"
   class="modal-img"
   alt=""
 />
 <div class="modal-content">
   <p class="modal-texts">
-    Lorem Ipsum is simply dummy text of the printing and typesetting
-    industry. Lorem Ipsum has been the industry's standard dummy text
-    ever since the 1500s, when an unknown printer took a galley of type
-    and scrambled it 1960s with the releaLorem Ipsum is simply dummy
+    choplife is a simple application that helps restaurants
+     to reachout to their customers easily. a customer orders
+      a meal from a s=restaurant and a rider delivers the order 
+      to the door of the customer
   </p>
   <div class="modal-contact">
     <ul class="languages modal-ul">
@@ -195,7 +195,7 @@ modal.innerHTML = `
       <li class="language-used modal-li">javaScript</li>
     </ul>
     <hr class="modal-hr" />
-    <a href="https://ibizugbe.github.io/My-Portfolio/">
+    <a href="https://ibizugbe.github.io/Capstone-Project-1/">
       <button class="btn modal-btn" type="submit">
         See live
         <img
@@ -205,7 +205,7 @@ modal.innerHTML = `
         />
       </button>
     </a>
-    <a href="https://github.com/Ibizugbe/My-Portfolio">
+    <a href="https://github.com/Ibizugbe/Capstone-Project-1">
       <button class="btn modal-btn" type="submit">
         See Source
         <img
