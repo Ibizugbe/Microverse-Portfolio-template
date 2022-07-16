@@ -748,6 +748,7 @@ a {
   font-size: 38px;
   font-weight: 300;
   margin: 0;
+  cursor: pointer;
 }
 
 .small-description {
