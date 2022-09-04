@@ -27,18 +27,6 @@ To get a local copy up and running follow these simple example steps.
 
 - [Clone this repository](https://github.com/Ibizugbe/My-Portfolio)
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
 ## Authors
 
 👤 **Abraham Ibizugbe**
