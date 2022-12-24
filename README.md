@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[See webpage here](https://ibizugbe.github.io/My-Portfolio/)
+[See webpage here](https://ibizugbe.github.io/Microverse-Portfolio-template/)
 
 
 ## Getting Started
